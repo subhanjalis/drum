@@ -5,7 +5,8 @@ document.querySelectorAll("button")[i].addEventListener("click",function(){
 });}
 
 document.addEventListener("keydown",function(event){
-  makeSound(event.key);});
+  makeSound(event.key);
+buttonAnime(event.key);});
 
 function makeSound(key){
   switch(key){
@@ -39,4 +40,9 @@ function makeSound(key){
   break;
 default:alert("yo");}
 
+}
+function buttonAnime(currKey){
+  var butto = document.querySelector("."+currKey);
+  butto.classList.add("drumi");
+  setTimeout(function(){butto.classList.remove("drumi");},350);
 }
