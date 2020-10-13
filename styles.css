@@ -1,29 +1,25 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #440B0B;
 }
 
+.logo{
+  width:5%;
+
+}
 @media only screen and (max-width: 600px) {
   body {
-  background-color: #32064A;
-  }
-
-  h1 {
-    font-size: 100%;
-    color: #DBEDF3;
-    font-family: "Arvo", cursive;
-    text-shadow: 3px 0 #DA0463;
-    background: #404B69;
-
+    background-color: lightblue;
   }
 }
+
 
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
-  background: #404B69;
+  background: #6b0a0a;
 
 }
 p{font-size: 1.5rem;
@@ -32,8 +28,9 @@ font-family: "Arvo", cursive;
 text-shadow: 3px 0 purple;}
 
 footer {
-  color: #DBEDF3;
+  color: white;
   font-family: sans-serif;
+  background-color: : #6b0a0a;
 }
 
 .w {
@@ -87,12 +84,12 @@ background-image: url(images/tom4.png);
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 10px solid #800000;
   font-size: 5rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
+  color: yellow;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
@@ -110,11 +107,12 @@ background-image: url(images/tom4.png);
   border: 18px solid white;
   color: lightpink;
 }
-footer{background: #404B60;}
+footer{background: #6b0a0a;
+padding: 1%;}
 
 @media only screen and (max-width: 600px) {
   body {
-
+background-color: #32064A;
   }
 
   h1 {
@@ -126,7 +124,7 @@ footer{background: #404B60;}
     border-radius:10px;
 
   }
-  
+
   .drum {
  outline: none;
   border: 5px solid #E56B1F;
@@ -134,7 +132,7 @@ footer{background: #404B60;}
   font-family: 'Arvo';
   line-height: 1 ;
   font-weight: 900;
-  color: #DA0463;
+  color: #32064A;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
@@ -144,15 +142,19 @@ footer{background: #404B60;}
   margin: 5px;
   background-color: white;
 }
-  
+
   .drumi{
   border: 18px solid #32064A;
   color: red;
 }
-  
+
   footer{
     background: #32064A;
     color: #32064A;
   background-color: #E56B1F;
   border-radius:5px;}
+
+  .logo{
+    width:10%;
+  }
 }
