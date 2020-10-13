@@ -3,6 +3,21 @@ body {
   background-color: #283149;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+  background-color: black;
+  }
+
+  h1 {
+    font-size: 100%;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+    background: #404B69;
+
+  }
+}
+
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
